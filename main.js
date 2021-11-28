@@ -83,7 +83,7 @@ const starts = async (client = new WAConnection()) => {
   });
   client.on("open", () => {
     success("2", "Successfully connected to wa, Subscribe AJUX");
-console.log(color(figlet.textSync(`${spc1}            AJUSER Bot`, {
+console.log(color(figlet.textSync(`${spc1}            AJUSER BOT`, {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
