@@ -5,9 +5,9 @@
 
 
 <div align="center">
-<img src="Aju.jpg" alt="aju" width="170" />
+<img src="Aju.jpg" alt="aju" width="300" />
 
-## AJU SER 
+## 🚀AJU SER🚀 
 
 </div>
 
@@ -40,6 +40,9 @@
 
 ```
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+https://github.com/DuckyTeam/heroku-buildpack-imagemagick
+heroku/nodejs
 ```
 
 ## `CHANGE SESSION`
@@ -53,65 +56,33 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 
 # Installation
 ## Clone Repo & Installation dependencies
-
-
-``` 
-git clone https://github.com/aju001/AJU-SER.git
+```bash
+🚀 git clone https://github.com/aju001/AJU-SER.git
+🚀 cd AJU-SER
+🚀 npm start
 ```
-```
-cd AJU-SER
-```
-```
-npm start
-```
-
 ## For Termux
+```bash
+🚀 apt update
+🚀 apt upgrade
+🚀 pkg update && pkg upgrade 
+🚀 pkg install bash
+🚀 pkg install libwebp
+🚀 pkg install git -y
+🚀 pkg install nodejs -y 
+🚀 pkg install ffmpeg -y 
+🚀 pkg install wget
+🚀 pkg install imagemagick -y
+🚀 git clone https://github.com/aju001/AJU-SER
+🚀 cd AJU-SER
+🚀 ls
+🚀 rm -rf session.json
+🚀 npm install
+🚀 npm start
+🚀 scan qr code within 15seconds
 ```
-apt update
-```
-```
-apt upgrade
-```
-```
-pkg update && pkg upgrade 
-```
-```
-pkg install hot
-```
-```
-pkg install bash
-```
-```
-pkg install libwebp
-```
-```
-pkg install git -y
-```
-```
-pkg install nodejs -y 
-```
-```
-pkg install ffmpeg -y 
-```
-```
-pkg install wget
-```
-```
-pkg install imagemagick -y
-```
-```
-git clone https://github.com/aju001/AJU-SER
-```
-```
-cd AJU-SER
-```
-```
-npm install
-```
-```
-npm start
-```
-scan qr code within 15seconds
+
+
 
 ## Connect With Me
 My Personal Chat👇
@@ -165,9 +136,9 @@ you can contact us
   </div>
  
 
-  [![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)](https://chat.whatsapp.com/ESkhpL7DdlE9AcaUs2b7g1)
+  [![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)](https://chat.whatsapp.com/HebsCx7CBxMJBLqyeHemcO)
 
 # Thanks To
-* [`Pepe`](https://github.com/pepesir)
+* [`Aju`](https://github.com/aju001)
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`Xeon`](https://github.com/DGXeon)
