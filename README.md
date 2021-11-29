@@ -26,6 +26,12 @@
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@aju0011/A-J-U-QR?v=1)
 
+<a href="https://github.com/aju001"><img src="https://i.ibb.co/QKLkFh5/1.jpg" alt="2" width="500"></a>
+
+<a href="https://github.com/aju001"><img src="https://i.ibb.co/Ms57pyC/2.jpg" alt="2" width="500"></a>
+
+## ERROR FIX IT YOURSELF
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aju001/AJU-SER) 
 
 
