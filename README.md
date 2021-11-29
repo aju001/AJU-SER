@@ -5,7 +5,7 @@
 
 
 <div align="center">
-<img src="Aju.jpg" alt="aju" width="300" />
+<img src="Aju.jpg" alt="aju" width="200" />
 
 ## 🚀AJU SER🚀 
 
@@ -26,9 +26,9 @@
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@aju0011/A-J-U-QR?v=1)
 
-<a href="https://github.com/aju001"><img src="https://i.ibb.co/QKLkFh5/1.jpg" alt="2" width="500"></a>
+<a href="https://github.com/aju001"><img src="https://i.ibb.co/QKLkFh5/1.jpg" alt="2" width="600"></a>
 
-<a href="https://github.com/aju001"><img src="https://i.ibb.co/Ms57pyC/2.jpg" alt="2" width="500"></a>
+<a href="https://github.com/aju001"><img src="https://i.ibb.co/Ms57pyC/2.jpg" alt="2" width="600"></a>
 
 ## ERROR FIX IT YOURSELF
 
