@@ -1676,7 +1676,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 │  Check In YouTube👇👇
 │  
 │  ❑ *ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ* :
-│  https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA
+│  https://youtu.be/-HPoucnmGp8
 │
 │  ❑ *ʙᴏᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ*
 │  https://chat.whatsapp.com/HebsCx7CBxMJBLqyeHemcO
@@ -2549,7 +2549,7 @@ case 'git':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/aju001/AJU-SER\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             ᴀᴊᴜ sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             ᴀᴊᴜ sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -2823,7 +2823,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `🦄 @${mem.jid.split('@')[0]}\n`
+						teks += `🦋 @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -3746,7 +3746,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             ᴀᴊᴜ sᴇʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙')
+  reply('╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             ᴀᴊᴜ sᴇʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -4021,7 +4021,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             ᴀᴊᴜ sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙"
+          "url": "╭─➤ *ᴀᴊᴜ sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   Check In YouTube👇👇\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtu.be/-HPoucnmGp8\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             ᴀᴊᴜ sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ ᴀᴊᴜ*\n╰─────────────────❋ཻུ۪۪⸙"
         },
         "index": 0
       }
@@ -4371,13 +4371,13 @@ sendButMessage(from, tiyo, `𝙰𝙹𝚄 𝚂𝙴𝚁`, [
              const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
              bc = await xeon.downloadMediaMessage(encmedia)
              for (let _ of anu) {
-             xeon.sendMessage(_.jid, bc, image, {quoted:fkontak,caption: `*「 𝙰𝙹𝚄 𝚂𝙴𝚁 BROADCASTING 」*\n\n${body.slice(4)}`})
+             xeon.sendMessage(_.jid, bc, image, {quoted:fkontak,caption: `*「 AJUSER BROADCASTING 」*\n\n${body.slice(4)}`})
 }
              reply('Broadcast success')
              } else {
              for (let _ of anu) {
 xeon.sendMessage(_.jid, 
-			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
+			{"contentText": `*「 AJUSER BROADCAST 」*\n\n${body.slice(4)}`,
 			"footerText": '𝙰𝙹𝚄 𝚂𝙴𝚁',
 			"buttons": [
 			{"buttonId": `${prefix}allmenu`,
