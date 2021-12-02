@@ -1,5 +1,5 @@
-// Script by Aju
-// AJU 𝚂𝙸𝚁 | 𝙳𝙾𝙽'𝚃 𝙲𝙷𝙰𝙽𝙶𝙴 𝙲𝚁𝙴𝙳𝙸𝚃𝚂🙂
+// Script by BAD CREW
+// BADCREW 𝚂𝙸𝚁 | 𝙳𝙾𝙽'𝚃 𝙲𝙷𝙰𝙽𝙶𝙴 𝙲𝚁𝙴𝙳𝙸𝚃𝚂🙂
 // ©Aju Bot 
 const {
   WAConnection: _WAConnection,
