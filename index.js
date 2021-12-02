@@ -4362,34 +4362,68 @@ sendButMessage(from, tiyo, `𝙰𝙹𝚄 𝚂𝙴𝚁`, [
         ]);               
         break;                 
    case 'bc':
-      case 'broadcast':
-        if (!mek.key.fromMe) return;
-             if (!isOwner) return  reply(mess.only.owner)
-             if (args.length < 1) return reply('text?')
-             anu = await xeon.chats.all()
-             if (isMedia && !mek.message.videoMessage || isQuotedImage) {
-             const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
-             bc = await xeon.downloadMediaMessage(encmedia)
-             for (let _ of anu) {
-             xeon.sendMessage(_.jid, bc, image, {quoted:fkontak,caption: `*「 AJUSER BROADCASTING 」*\n\n${body.slice(4)}`})
-}
-             reply('Broadcast success')
-             } else {
-             for (let _ of anu) {
-xeon.sendMessage(_.jid, 
-			{"contentText": `*「 AJUSER BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": '𝙰𝙹𝚄 𝚂𝙴𝚁',
-			"buttons": [
-			{"buttonId": `${prefix}allmenu`,
-			"buttonText": {"displayText": "CLICK TO VIEW MENU"
-			},"type": "RESPONSE"}
-			], "headerType": 1,
-			}, MessageType.buttonsMessage )
-}
-             reply('Broadcast success')
-}
-             break
 
+			case 'broadcast':
+
+			case 'bcimage':
+
+					if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
+
+					if (args.length < 1) return reply('```TEXT?```')
+
+					arg = args.join(' ');
+
+					anu = await alpha.chats.all()
+
+					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
+
+					const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek					
+
+					bc = await alpha.downloadMediaMessage(encmedia)
+
+					for (let _ of anu) {
+
+					await alpha.sendMessage(_.jid, bc, image, {thumbnail: bc, quoted:fkontak ,caption: `「  *BROADCAST* 」\n\n${arg}`})
+
+					}
+
+					fakegroup(lang.successBc())
+
+					} else {
+
+					await ini_bc_pc_bang(arg)
+
+					fakegroup(lang.successBc())
+
+					}
+
+					break
+
+			case 'bcgc':
+
+					case 'bcgroup':
+
+					case 'bcgrup':
+
+					case 'broadcastgrup':
+
+		if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
+
+                    if (args.length < 1) return reply(`Untuk broadcast ke semua group ketik:\n${prefix}bcgroup [isi chat]`)
+
+                    var group = await alpha.groupMetadata(from)
+
+			ini_bc = args.join(' ')
+
+		var groupz = await alpha.chats.all().filter(v => v.jid.endsWith('g.us'))
+
+                    reply(`\`\`\`[ ! ]\`\`\` Broadcast in progress! Total: ${groupz.length} groups`)
+
+                    await ini_bc_gc_bang(ini_bc)
+
+					reply(`\`\`\`[ ✓ ] Success broadcast : ${groupz.length} groups\`\`\``)
+
+					break
 case 'yuri':
 if (!isGroup) return reply('this feature is only for groups')
 if (!isNsfw) return reply(`Nsfw feature is not yet active in this group\nType: ${prefix}nsfw 1 \To activate`)
