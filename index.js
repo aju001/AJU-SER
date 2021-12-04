@@ -4367,12 +4367,12 @@ sendButMessage(from, tiyo, `𝙰𝙹𝚄 𝚂𝙴𝚁`, [
 					if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
 					if (args.length < 1) return reply('```TEXT?```')
 					arg = args.join(' ');
-					anu = await alpha.chats.all()
+					anu = await xeon.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 					const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek					
-					bc = await alpha.downloadMediaMessage(encmedia)
+					bc = await xeon.downloadMediaMessage(encmedia)
 					for (let _ of anu) {
-					await alpha.sendMessage(_.jid, bc, image, {thumbnail: bc, quoted:fkontak ,caption: `「  *BROADCAST* 」\n\n${arg}`})
+					await xeon.sendMessage(_.jid, bc, image, {thumbnail: bc, quoted:fkontak ,caption: `「  *BROADCAST* 」\n\n${arg}`})
 					}
 					fakegroup(lang.successBc())
 					} else {
@@ -4386,9 +4386,9 @@ sendButMessage(from, tiyo, `𝙰𝙹𝚄 𝚂𝙴𝚁`, [
 					case 'broadcastgrup':
 		if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
                     if (args.length < 1) return reply(`Untuk broadcast ke semua group ketik:\n${prefix}bcgroup [isi chat]`)
-                    var group = await alpha.groupMetadata(from)
+                    var group = await xeon.groupMetadata(from)
 			ini_bc = args.join(' ')
-		var groupz = await alpha.chats.all().filter(v => v.jid.endsWith('g.us'))
+		var groupz = await xeon.chats.all().filter(v => v.jid.endsWith('g.us'))
                     reply(`\`\`\`[ ! ]\`\`\` Broadcast in progress! Total: ${groupz.length} groups`)
                     await ini_bc_gc_bang(ini_bc)
 					reply(`\`\`\`[ ✓ ] Success broadcast : ${groupz.length} groups\`\`\``)
