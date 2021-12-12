@@ -1,6 +1,6 @@
 // Script by Aju
 // AJU 𝚂𝙸𝚁 | 𝙳𝙾𝙽'𝚃 𝙲𝙷𝙰𝙽𝙶𝙴 𝙲𝚁𝙴𝙳𝙸𝚃𝚂🙂
-// ©Aju Bot 
+// ©Ajuser Bot 
 const {
   WAConnection: _WAConnection,
   MessageType,
