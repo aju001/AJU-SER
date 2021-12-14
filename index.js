@@ -2088,7 +2088,7 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = xeon.contacts[i] != undefined ? xeon.contacts[i].vname || xeon.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'Pepe',
+"displayName": 'aju',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xeon.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -5334,7 +5334,7 @@ buttons = [{buttonId: `pinterest`,buttonText:{displayText: `➡️Next`},type:1}
                 media = Buffer.from(response, "base64");
                 xeon.sendMessage(from, media, image, {
                   quoted: mek,
-                  caption: "Here",
+                  caption: "©AJUSER",
                 });
               })
               .catch((error) => {
@@ -5386,7 +5386,7 @@ case 'waifu':
   reply(apa2)
   break
 case 'attp':
-              if (args.length == 0) return reply(`Example: ${prefix + command} pepe`)
+              if (args.length == 0) return reply(`Example: ${prefix + command} aju`)
               buffer = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURI(q)}`)
               xeon.sendMessage(from, buffer, sticker, { quoted: freply })
               break
@@ -6290,7 +6290,7 @@ if (_chats.startsWith('$')){
 if (!isOwner)return// reply(`This command can not be carried out by rent bot temporarily`)
 if (!q)return 
 var itsme = `${sender}`
-var split = `*Pepe Bot Inc.*`
+var split = `*Aju Bot Inc.*`
 const term = {
 contextInfo: {
 participant: itsme,
