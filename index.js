@@ -4360,7 +4360,39 @@ sendButMessage(from, tiyo, `𝙰𝙹𝚄 𝚂𝙴𝚁`, [
             type: 1,          
           },
         ]);               
-        break;                 
+        break;
+   case 'tobc':
+                                        xeon.updatePresence(from, Presence.composing)
+					if (!isOwner) return reply(mess.only.owner)
+					anu = await xeon.chats.all()
+					if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
+					const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+					buff = await xeon.downloadMediaMessage(encmedia)
+					for (let _ of anu) {
+                                        xeon.sendMessage(_.jid, buff, audio, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})}, message: { orderMessage: { itemCount: 79948730, status: 200, thumbnail: fs.readFileSync('./xeon.jpg'), surface: 200, message: `${body.slice(5)}`, orderTitle: `hm`, sellerJid: '0@s.whatsapp.net'}}}, mimetype: 'audio/mp4', duration: '999899.0', ptt: true, contextInfo: { forwardingScore: 000, isForwarded: true}})
+					}
+					} else if (isMedia && !mek.message.videoMessage || isQuotedSticker) {
+					const encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+					buff = await xeon.downloadMediaMessage(encmedia)
+					for (let _ of anu) {
+					xeon.sendMessage(_.jid, buff, sticker, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 2021, status: 200, thumbnail: fs.readFileSync('./xeon.jpg'), surface: 200, message: `${body.slice(5)}`, orderTitle: `ʙʀᴏᴀᴅᴄᴀsᴛ`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
+					}
+					} else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
+					const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+					buff = await xeon.downloadMediaMessage(encmedia)
+					for (let _ of anu) {
+					xeon.sendMessage(_.jid, buff, video, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 2021, status: 200, thumbnail: fs.readFileSync('./xeon.jpg'), surface: 200, message: `${body.slice(5)}`, orderTitle: `ʙʀᴏᴀᴅᴄᴀsᴛ`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
+					}
+					} else if (isMedia && !mek.message.videoMessage || isQuotedGif) {
+					const encmedia = isQuotedGif ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+					buff = await xeon.downloadMediaMessage(encmedia)
+					for (let _ of anu) {
+					xeon.sendMessage(_.jid, buff, gif, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 1000, status: 200, thumbnail: fs.readFileSync('./xeon.jpg'), surface: 200, message: `𝑬𝑽𝑬𝑹𝒀𝑻𝑯𝑰𝑵𝑮\n𝑾𝑰𝑳𝑳 𝑩𝑬\n😎𝑶𝑲😎`, orderTitle: `ʙʀᴏᴀᴅᴄᴀsᴛ`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 22, isForwarded: true}})
+					}
+					} else {
+                    reply('*Reply To Sticker/Audio/Video*')
+				    }
+					break
    case 'bc':
 			case 'broadcast':
 			case 'bcimage':
